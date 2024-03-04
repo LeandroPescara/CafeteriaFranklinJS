@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "nombre": "Cafe con Leche",
+      "precio": 2050,
+      "cantidad": 1,
+      "img": "./resources/capu.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Capuccino",
+      "precio": 2500,
+      "cantidad": 1,
+      "img": "./resources/capu.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Americano",
+      "precio": 1800,
+      "cantidad": 1,
+      "img": "./resources/capu.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Descafeinado",
+      "precio": 1200,
+      "cantidad": 1,
+      "img": "./resources/capu.jpg"
+    }
+  ]

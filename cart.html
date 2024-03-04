@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/productos.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Carrito de Compras ☕</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./#hero"><p class="logo-title">Cafetería Franklin☕</p></a>
+            <div>
+                <a href="./#container" id="cart"><img src="./resources/iconos/shopping-cart.png" alt=""><span id="cuenta-carrito">0</span></a>      
+            </div> 
+        </nav>  
+</header>
+      <main>
+          <p id="carrito-vacio">Ups! El carrito está vacío, <a href="./index.html">elige algunos productos</a></p>
+          <section id="cart-container">
+          </section>
+    <section id="totales">
+      <p>Total unidades: <span id="cantidad">0</span></p>
+      <p>Total precio: $<span id="precio">0</span></p>
+      <button id="alertpedido">Realizar pedido</button>
+      <button id="reiniciar">Reiniciar</button>
+    </section>
+  </main>
+      <footer>
+        © 2024 Cafetería Franklin 
+      </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>  
+    <script src="/json/productos.json" defer></script>
+    <script src="/js/carritoFunct.js" defer></script>  
+    <script src="/js/carrito.js" defer></script>   
+</body>
+</html>

@@ -1,0 +1,150 @@
+
+*{
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+:root{
+    --color-acento: #ee6130;
+    --color-acento-claro: #ee613033;
+    --color-texto: black;
+  }
+  
+  body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  h3, p{
+    margin: 5px;
+  }
+  
+  .escondido{
+    display: none;
+  }
+  
+  a{
+    background-color: unset;
+    border:unset;
+    cursor:pointer;
+    text-decoration: none;
+    transition: 200ms;
+    color: var(--color-texto);
+  }
+  
+  button{
+    transition: 200ms;
+  }
+  
+  a:hover:not(#cart), button:hover{
+    color: var(--color-acento);
+  }
+  
+  /* Header */
+  header{
+    background-color: #005725;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.09);
+    font-size: larger;
+    position: fixed;
+    width: 100%;
+  }
+  
+  header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+    height: 8vh;
+
+  }
+
+.logo-title{
+  font-size: 30px;
+  margin: 15px;
+}
+  
+  header nav div{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  header nav img{
+    height: 25px;
+  }
+  
+  #cuenta-carrito{
+    position: absolute;
+    background-color: var(--color-acento);
+    border-radius: 100%;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    aspect-ratio: 1;
+    text-align: center;
+    /* margin-bottom: 15px; */
+  }
+  
+  footer{
+    text-align: center;
+    box-shadow: -1px -3px 5px rgba(0, 0, 0, 0.09);
+    padding-top: 2px;
+    margin-top: auto;
+  }
+  
+  footer a{
+    text-decoration: underline;
+  }
+
+  #hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(/resources/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+ .hero button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0,0,0.5);
+    color:white;
+    background-color:#03760c;
+}
+
+.hero button:hover{
+    background-color: #006400;
+}
+
+.hero h3{
+  color: white;
+  font-size: 3.5em;
+}
+
+footer{
+  background-color: #6C553F;
+}
+
+body{
+  
+  background-color: #f8efda;
+  color: black;
+}

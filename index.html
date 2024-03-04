@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/productos.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Cafeteria Franklin V1.7</title>
+</head>
+<body>
+    <header>
+           <nav>
+                <a href="#hero"><p class="logo-title">Cafetería Franklin☕</p></a>
+                <div>
+                    <a href="./cart.html" id="cart"><img src="./resources/iconos/shopping-cart.png" alt=""><span id="cuenta-carrito">0</span></a>      
+                </div>
+            </nav>  
+    </header>
+    <main>
+        <section>
+            <div id="hero" class="hero"> </div>           
+        </section>  
+		<section id="productos-container" class="productos-container">
+		</section>
+    </main>
+    <footer>
+        © 2024 Cafetería Franklin 
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="/json/productos.json" defer></script>   
+    <script src="/js/carritoFunct.js" defer></script>   
+    <script src="/js/main.js" defer></script>
+
+</body>
+</html>
